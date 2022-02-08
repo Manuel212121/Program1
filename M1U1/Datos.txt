@@ -5,4 +5,4 @@ Estado
 Ensamblaje 
 pieza
 componente
-
+Ensamblaje total
