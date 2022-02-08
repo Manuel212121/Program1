@@ -1,0 +1,4 @@
+Denominación
+Material
+Componente
+Estado
