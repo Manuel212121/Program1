@@ -2,3 +2,7 @@ Denominación
 Material
 Componente
 Estado
+Ensamblaje 
+pieza
+componente
+
