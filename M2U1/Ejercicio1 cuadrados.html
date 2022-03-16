@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click color</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Modificación de colores</h1>
+
+    <div class="contenedor" >
+        <div class="Rectangulo red rojo " onclick="cambiarFondo('red')"></div>
+        <div class="Rectangulo red azul " onclick="cambiarFondo('blue')"></div>
+        <div class="Rectangulo red amarillo " onclick="cambiarFondo('yellow')"></div>
+    </div>
+    <style>
+        .contenedor{
+            display:flex;color: rgb(85, 233, 183);
+        }
+        .Rectangulo{
+            width: 50px;
+            height: 150px;
+            cursor: pointer;
+    
+        }
+        .rojo{
+            background-color: rgb(218, 142, 142);
+        }
+        .azul{
+            background-color: rgb(138, 138, 245);
+        }
+        .amarillo{
+            background-color: rgb(236, 236, 105);
+        }
+     </style>
+     <script>
+         function cambiarFondo(color){
+             document.querySelector('body').style.background=color;
+         }
+     </script>
+</body>
+</html>
