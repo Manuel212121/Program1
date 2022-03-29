@@ -1,0 +1,44 @@
+
+/* font-family: Arial; */
+
+.hero1 {
+    background-color: rgb(180, 43, 43);
+    background-size: contain;
+    height: 0.4vh;
+    min-height: 95px;
+    }
+.nav {
+    padding-left: 70px;
+    padding-top: 60px;
+    font-family: Arial;
+}
+.hero2 {
+    background-color: rgb(170, 170, 170);
+    background-size: contain;
+    min-height: 350px;
+}
+.hero2  {
+    padding-left: 85px;
+       
+}
+.tarjeta {
+    padding-top: 20px;
+    font-family: Arial;
+    background-color: rgb(170, 170, 170);
+}
+
+
+
+
+
+.contenidofinal{
+    padding-top: 35px;
+    font-family: Arial;
+}
+
+.fin {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: blue;
+    padding-top: 40px;
+}
